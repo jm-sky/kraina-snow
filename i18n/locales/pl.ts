@@ -12,7 +12,6 @@ export default {
       featherCleaning: 'Pranie pierza',
       manufacturing: 'Wyrób kołder i poduszek z puchu oraz pierza',
       renovation: 'Przeróbka pierzyn',
-      sewing: 'Usługi krawieckie',
       fillReplacement: 'Wymiana wsypu',
       specialNote: 'Pierze od każdego klienta czyścimy osobno!'
     },
@@ -28,7 +27,7 @@ export default {
     },
     company: {
       title: 'Informacje o firmie',
-      description: 'Profesjonalne usługi pralnicze i krawieckie:',
+      description: 'Specjalizujemy się w praniu pierza i wyrobie kołder oraz poduszek:',
       phone: 'Telefon',
       phone2: 'Telefon 2',
       address: 'Adres',
@@ -39,11 +38,11 @@ export default {
   contact: {
     title: 'Kontakt',
     services: 'Usługi pralnicze',
-    cleaning: 'Pranie i renowacja',
-    sewing: 'Usługi krawieckie',
+    cleaning: 'Pranie i renowacja pierza',
+    fillReplacement: 'Wymiana wsypu',
   },
   hero: {
-    description: 'Profesjonalne usługi pralnicze i krawieckie z wieloletnim doświadczeniem i gwarancją jakości.',
+    description: 'Twoje poduszki i kołdry zasługują na nowe życie!',
     learnMore: 'Dowiedz się więcej',
     contact: 'Kontakt',
   },
@@ -53,7 +52,7 @@ export default {
   footer: {
     phone: 'Telefon',
     address: 'Adres',
-    description: 'Profesjonalne usługi pralnicze i krawieckie z wieloletnim doświadczeniem i gwarancją jakości.',
+    description: 'Specjalizujemy się w praniu pierza i wyrobie kołder oraz poduszek z wieloletnim doświadczeniem i gwarancją jakości.',
     quickLinks: 'Szybkie linki',
     contact: 'Kontakt',
     copyright: 'Wszelkie prawa zastrzeżone.',

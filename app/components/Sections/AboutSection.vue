@@ -27,7 +27,6 @@ const { slideUp, delayed } = useAnimationConfig()
         <ListItem>{{ t('about.whatWeDo.featherCleaning') }}</ListItem>
         <ListItem>{{ t('about.whatWeDo.manufacturing') }}</ListItem>
         <ListItem>{{ t('about.whatWeDo.renovation') }}</ListItem>
-        <ListItem>{{ t('about.whatWeDo.sewing') }}</ListItem>
         <ListItem>{{ t('about.whatWeDo.fillReplacement') }}</ListItem>
       </List>
       <div class="mt-4 p-3 bg-accent/10 border-l-4 border-accent rounded">

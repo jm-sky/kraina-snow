@@ -10,7 +10,7 @@ import { config } from '@/config'
       </span>{{ config.logo.normal }}
     </div>
     <div class="text-muted-foreground opacity-80">
-      {{ config.company.name }}
+      {{ config.company.address }}
     </div>
   </div>
 </template>

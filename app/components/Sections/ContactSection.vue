@@ -89,7 +89,7 @@ const { slideUp, delayed } = useAnimationConfig()
       <div class="flex gap-4 items-center px-4 py-3 rounded-full">
         <Scissors class="size-6" />
         <div>
-          <span class="font-semibold">{{ t('contact.sewing') }}</span>
+          <span class="font-semibold">{{ t('contact.fillReplacement') }}</span>
         </div>
       </div>
     </CardComponent>
