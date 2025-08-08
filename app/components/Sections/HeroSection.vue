@@ -12,7 +12,7 @@ const { t } = useI18n()
   >
     <div class="py-20">
       <CompanyLogo class="mb-2" />
-      <p class="px-4 md:px-0 text-xl leading-relaxed md:text-2xl text-muted-foreground mb-8">
+      <p class="px-4 md:px-0 text-xl font-bold leading-relaxed md:text-2xl text-muted-foreground mb-8">
         {{ t('hero.description') }}
       </p>
       <div class="flex justify-center gap-4">
