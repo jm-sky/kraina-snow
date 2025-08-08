@@ -1,0 +1,40 @@
+<script setup lang="ts">
+import { useI18n } from '#imports'
+import { Button } from '@/components/ui/button'
+
+const { locale, setLocale } = useI18n()
+
+const locales = ['pl', 'en', 'ru'] as const
+
+const toggleLocale = () => {
+  const currentIndex = locales.indexOf(locale.value as typeof locales[number])
+  const nextIndex = (currentIndex + 1) % locales.length
+  const nextLocale = locales[nextIndex]
+  if (nextLocale) {
+    setLocale(nextLocale)
+  }
+}
+</script>
+
+<template>
+  <Button
+    variant="ghost"
+    size="sm"
+    class="relative size-8"
+    @click="toggleLocale()"
+  >
+    <Transition
+      enter-from-class="opacity-0 -translate-y-5"
+      enter-active-class="absolute transition-all duration-300 ease-in-out"
+      enter-to-class="opacity-100 translate-y-0"
+      leave-from-class="opacity-100 translate-y-0"
+      leave-active-class="absolute transition-all duration-200 ease-in-out"
+      leave-to-class="opacity-0 translate-y-5"
+    >
+      <span v-if="locale === 'pl'">PL</span>
+      <span v-else-if="locale === 'en'">EN</span>
+      <span v-else>RU</span>
+    </Transition>
+  </Button>
+</template>
+
